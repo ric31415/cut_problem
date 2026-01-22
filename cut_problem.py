@@ -83,10 +83,10 @@ def format_instructions_grouped(bars):
 # =========================
 # STREAMLIT APP
 # =========================
-st.set_page_config(page_title="Optimización de Corte de Barras", layout="centered")
+st.set_page_config(page_title="Corte de Barras", layout="centered")
 
-st.title("🔩 Optimización de Corte de Barras")
-st.write("Asignación de piezas a barras minimizando desperdicio.")
+st.title("🔩 Corte de Barras")
+st.write("Asignación de piezas a barras.")
 
 # -------- INPUTS --------
 st.subheader("📥 Datos de entrada")
